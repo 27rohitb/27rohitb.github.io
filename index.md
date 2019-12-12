@@ -6,4 +6,4 @@ feel free to read them as:
 
 ### List starts from here:
 
-* [Python](https://27rohitb.github.io/python/python_readme.md)
+* [Python](https://27rohitb.github.io/python/readme.md)
