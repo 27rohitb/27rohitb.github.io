@@ -85,7 +85,8 @@ OTHER STUFF:
 #return a bool if "a" is present in "str"
 
 CATCHING ERRORS: (Try-Except block)
-# best practise: use SPecific Errors mostly.
+# best practise: use Specific Errors mostly.
+# put specific exceptions at the top.
 syntax:
 
 try:
@@ -93,8 +94,15 @@ try:
 except ZeroDivisionError as err:
 	#Do something
 	#as err-> STORES error into variable "err"
-except:
+except <any error by default>:
 	#TODO for everything else
+else:
+	#TODO if no exception is found
+finally:
+	#TODO independent of an error or not
+
+raise Exception
+# is used to maually raise general exception on demand
 
 
 FILE IO:
