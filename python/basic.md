@@ -115,9 +115,10 @@ else:
 	#TODO if no exception is found
 finally:
 	#TODO independent of an error or not
-
+```
+>Raise general exception on demand
+```
 raise Exception
-# is used to maually raise general exception on demand
 ```
 
 ## FILE IO:
