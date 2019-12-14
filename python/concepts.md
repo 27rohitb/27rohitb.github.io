@@ -27,4 +27,4 @@ def outer_func(some_arg):
 ``` 
 
 ## Closure:
-The ability of inner function to access vars inside of outer function , which could be outside the inner fucntion's scope normally.
+The ability of inner function to access vars inside of outer function , which could be outside the inner function's scope normally.
