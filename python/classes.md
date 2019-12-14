@@ -1,4 +1,4 @@
-# CLASSES
+# Classes
 This is basically defines a _new!!_ datatype.  
 
 >**NOTE: For a class to be inherited ,it must be imported first!!!**
