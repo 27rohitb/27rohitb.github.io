@@ -102,6 +102,7 @@ Best practise:
 * Put specific exceptions at the top.
 
 >syntax:
+
 ```python
 try:
 	#code here
