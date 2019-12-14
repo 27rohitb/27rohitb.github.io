@@ -83,7 +83,7 @@ These are **used when you dont want the data to change***, say for example coord
 ```
 Mostly used to make converter or map something (for eg, expander of "jan" to "january")
 
->** NOTE: In KEY-VAL pair. KEY must be unique and Value MUST be hasbable. **  
+>**NOTE: In KEY-VAL pair. KEY must be unique and Value MUST be hasbable.**  
 
 >Return value for the given key, if it exists.
 ```
