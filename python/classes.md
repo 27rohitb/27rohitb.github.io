@@ -56,27 +56,31 @@ ___
 ## Instance Variables vs Class variable
 **Instance variables** contain data _**uniquely**_ associated with the given instance of some class, whereas **Class variables** are common amongst all the instances.    
 
-> Instance Variable example:
+> Instance Variable example:   
 
 ```python
 inst_one = some_class()
 inst_one.uniq_var = "some val" #this is uniq to this instance.
 ```
-> Class variable example:
+> Class variable example:   
+
 ```python
 class some_class:
 
     random_var = "some Val" # THis is a CLASS Variable
 
     # <init method goes here>
-```
+```   
+
 > There are **two** methods to access class variable within a class:  
-> Method 1: accessing through instance variable  
+> Method 1: accessing through instance variable   
+
 ```python
     def some_func(self):
         self.random_var
 ```
->Method 2: accessing through class variable   
+>Method 2: accessing through class variable    
+
 ```python
     def some_func(self):
         some_class.random_var
@@ -89,7 +93,8 @@ NOTE: Some key points to keep in mind are:
 
 * If we try to modify class variable throught instance, it will lead to that variable's modified version being added to instance's namespace.
 
-> A namespace is a dict maintain by python to keep the name assigned uniquely to each variable. It can be accessed using:
+> A namespace is a dict maintain by python to keep the name assigned uniquely to each variable. It can be accessed using:   
+
 ```python
 # Accessing namespace of an entity: a class or instance.
 some_entity.__dict__
