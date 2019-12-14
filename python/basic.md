@@ -14,7 +14,8 @@ str.replace("old", "new)
 >Return a bool if only "a" sub-string is present in "str"
 ```
 "a" in "str":
-```
+```   
+
 ## Number functions:
 >Remainder of (a/b)
 ```
@@ -75,7 +76,7 @@ list2_var = list_var.copy()
 ```
 () -> Tuples
 ```
-These are **used when you dont want the data to change***, say for example coordinates. Similar to list, just without modification functions or fancy indexing.
+These are **used when you dont want the data to change**, say for example coordinates. Similar to list, just without modification functions or fancy indexing.
 
 ## Dictionary functions:
 ```
@@ -123,22 +124,24 @@ raise Exception
 
 ## FILE IO:
 
->Return a BOOL val depending upon the readability of the file.   
+Return a BOOL val depending upon the readability of the file.   
 **NOTE is ALSO depends upon the MODE inwhich file was opened (r/r+/w)**
 ```
 file_var.readable()
-```
+```   
 
->returns a LIST of lines in the file which was read
+Returns a LIST of lines in the file which was read
 #NOTE its readLINES and NOT readLINE.
 ```
 file_var.readlines()
-```
-> a:  append mode to file; w: _Overwrites!!_ file
+```   
+
+a:  append mode to file; w: _Overwrites!!_ file
 ```
 open("filename","a/w")
-```
->If filemode is append, then it adds "data" to last line.  
+```   
+
+If filemode is append, then it adds "data" to last line.  
 **NOTE: it does NOT adds newline.**
 ```
 file_var.write( data )
