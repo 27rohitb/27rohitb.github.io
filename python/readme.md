@@ -7,5 +7,6 @@ This page contain links to all the pages I have on python.
 * [Links](./links.md)
 * [Basics](./basic.md)
 * [Decorators](./decorators.md)
+* [Scopes](./scopes.md)
 * [Classes](./classes.md)
 * [OS_Module](./osModule.md)
