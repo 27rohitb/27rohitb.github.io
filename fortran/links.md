@@ -1,7 +1,8 @@
 # Links   
 This file contains important links to various sources:
   
-## Links for Installation of Fortran Complier:
+## Links for Installation of Fortran Complier:   
+**NOTE: These links are ONLY for WINDOWS 10**
 
 ### Intel Compiler (ifort):
  
