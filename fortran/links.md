@@ -15,14 +15,13 @@ Advantage ,as compared to gfortran:
 * Faster.
 
 Disadvantage:
-* Require license.
----   
+* Require license.   
 
+---   
 * **Installation link, Student Version: [CLICK HERE](https://software.intel.com/en-us/parallel-studio-xe/choose-download/student-windows)**
 * Visual Studio Free/Community edition: [CLICK HERE](https://visualstudio.microsoft.com/vs/community/)   
 
 ---   
-
 ### Gfortran GCC-Fortran:
 Require installion of Mingw-w64, which is a binary (.exe), for windows. So,   
 * Gfortran page [CLICK HERE](https://gcc.gnu.org/wiki/GFortranBinaries)   
