@@ -1,6 +1,6 @@
-# Links
- This file contains important links to various sources:
- ---  
+# Links   
+This file contains important links to various sources:
+  
 ## Links for Installation of Fortran Complier:
 
 ### Intel Compiler (ifort):
