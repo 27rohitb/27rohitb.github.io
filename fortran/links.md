@@ -1,9 +1,9 @@
 # Links
  This file contains important links to various sources:
  ---  
- ## Links for Installation of Fortran Complier:
+## Links for Installation of Fortran Complier:
 
- ### Intel Compiler (ifort):
+### Intel Compiler (ifort):
  
  Note:
  * It require **12gb** of additional space.
