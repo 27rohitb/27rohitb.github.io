@@ -54,7 +54,7 @@ some_class.some_func(inst_one) # passing instance as argument.
 ___
 
 ## Instance Variables vs Class variable
-**Instance variables** contain data _**uniquely**_ associated with the given instance of some class, whereas **Class variables** are common amongst all the instances.    
+**Instance variables** contain data _**uniquely**_ associated with the given instance of some class, whereas **Class variables** are common amongst all the instances and generally defined _**outside**_ of "init" method!!.    
 
 > Instance Variable example:   
 
@@ -102,3 +102,15 @@ some_entity.__dict__
 
 ___
 ## Class methods & Static methods
+
+### Class methods:   
+These are generally used to manipulate class variables.
+
+To _convert_ regular method to class method; 
+use decorator **@classmethod** and pass the first argument as class: **cls** keyword being used, since "class" is already a keyword. 
+
+Example:
+```python
+@classmethod
+def somefunc(cls,*args):
+```
