@@ -150,7 +150,39 @@ Example:
 @staticmethod
 def some_name(var):
     #TODO something with var
-```
+```   
+---    
+## Inheritance   
+Reuseability of code.
 
+Example:   
+```python
+class derived_class(parent_class_name):
+```   
 
+### Method resolution order   
+This is order in which python looks up for methods and attributes. This can be viewed using help function:   
+```python print(help(class_name))```   
 
+## Using "super":   
+This is used to class method of parent class. Especiall constructor, from dervied class.   
+
+Example:
+```python
+class par:
+    def __init__(self,var1):
+        #TODO
+
+class derive(par):
+    def __init__(self,var1,var2):
+        super().__init__(var1)
+        # below line also does the same thing
+        par.__init__(self,var1)
+        self.var2 = var2
+```   
+
+### Builtin function for help   
+
+**isinstance(insta, Class_name)** function tells us if given instance object of a class.  
+
+**issubclass(Class1, Class2)** ,gives us if class1 is dervied class of class2.
