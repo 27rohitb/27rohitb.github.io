@@ -114,3 +114,43 @@ Example:
 @classmethod
 def somefunc(cls,*args):
 ```
+
+### Class method use cases:
+
+* Returning class/ manipulating class varibables.   
+* Alternative constructor for a class.   
+
+Example:   
+```python
+class some_class:
+    class_var = []
+    class_info_var = []
+    
+    def __init__(self,var1):
+        self.var1 = var1
+    
+    @classmethod
+    def get_classinfo(cls, <arg,if any>):
+        return cls.class_info_var
+        
+    @classmethod
+    def other_const(cls, some_var):
+        var1 = after_processing(some_var)
+        return cls(var1)
+```
+
+### Static methods:   
+Unlike class or regular methods which pass "cls" or "self" as first arguments, these **dont** pass any arguments. But these are **included** in class, since they have some logical connection to it.   
+
+Generally, if a method is not using any instance or class variable, then it should be made a stati method.   
+
+This created using decorator: **@staticmethod**.
+Example:
+```python
+@staticmethod
+def some_name(var):
+    #TODO something with var
+```
+
+
+
