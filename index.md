@@ -9,3 +9,4 @@ feel free to read them as:
 * [Python](./python/readme.md)
 * [Fortran](./fortran/readme.md)
 * [PyOpenCL](./pyopencl/readme.md)
+* [LateX](./latex/readme.md)
