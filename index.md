@@ -6,6 +6,7 @@ feel free to read them as:
 
 ### List starts from here:
 
+* [sQML](./sQML/readme.md)
 * [Python](./python/readme.md)
 * [Fortran](./fortran/readme.md)
 * [PyOpenCL](./pyopencl/readme.md)
