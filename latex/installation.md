@@ -28,7 +28,12 @@ sudo apt install latexmk
   
 ```
 sudo apt-get install texlive-publishers 
+```  
+Below is an additional command, which is used to add additional packages/fonts to latex installation.!:   
 ```
+sudo apt-get install texlive-science
+```  
+
   
 ## VScode Requirement:   
   
