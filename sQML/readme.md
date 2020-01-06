@@ -14,6 +14,7 @@ Entire software stack is divided into 4 modules: (this is tentative and subjecte
 * [Quantum Gate](q_gate.md).
 * [Assembler](q_asm.md).
 * [Simulator](q_sim.md).
+* [OpenQASM Wrapper](qasm_warp.md) _this is a alpha-level thought work will be done later_
 
 ## sQML: Syntax  
 
