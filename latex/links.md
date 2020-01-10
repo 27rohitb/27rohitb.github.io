@@ -30,3 +30,4 @@ I think this site deserves a dedicated links section, since there where i learne
 * Spacing in Maths Equations (math mode) [here](https://www.overleaf.com/learn/latex/Spacing_in_math_mode)
 * CUSTOM Commands [here](https://www.overleaf.com/learn/latex/Commands)
 * Text alignments [here](https://www.overleaf.com/learn/latex/Text_alignment)
+* Text Size [here](https://www.overleaf.com/learn/latex/Font_sizes,_families,_and_styles)
