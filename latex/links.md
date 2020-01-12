@@ -31,3 +31,4 @@ I think this site deserves a dedicated links section, since there where i learne
 * CUSTOM Commands [here](https://www.overleaf.com/learn/latex/Commands)
 * Text alignments [here](https://www.overleaf.com/learn/latex/Text_alignment)
 * Text Size [here](https://www.overleaf.com/learn/latex/Font_sizes,_families,_and_styles)
+* Write psudocode and code [here](https://www.overleaf.com/learn/latex/algorithms)
