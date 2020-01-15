@@ -11,3 +11,10 @@ feel free to read them as:
 * [Fortran](./fortran/readme.md)
 * [PyOpenCL](./pyopencl/readme.md)
 * [LateX](./latex/readme.md)
+
+### External Links:  
+    
+These are site, which already have nicely maintained content similar to my site, and thus instead of re-inventing the wheel, i am posting 
+the links to them here:     
+
+* [Tim Murphy's site](http://timmurphy.org/)
