@@ -18,6 +18,8 @@ ___
 * IEEEtransaction package [here](https://www.ctan.org/pkg/ieeetran) + Additional info [here](http://www.michaelshell.org/tex/ieeetran/)
   
 * Example of All types of maths functions & formula [here](http://www.malinc.se/math/latex/basiccodeen.php)
+   
+* Difference between algorithm packages [here](https://tex.stackexchange.com/questions/229355/algorithm-algorithmic-algorithmicx-algorithm2e-algpseudocode-confused)
 ___  
 ## Overleaf  
 
