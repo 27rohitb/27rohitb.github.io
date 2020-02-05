@@ -24,7 +24,7 @@ ___
 ### For Boost (windows)
 
 * Precompiled Boost is available [here](https://sourceforge.net/projects/boost/files/boost/)
-* Precompiled python.Boost is available [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#boost.python)
+* Prebuild python.Boost is available [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#boost.python)
 * For compiling *bjam* note that bjam = b2, which is included in the zip.
 
 ___
