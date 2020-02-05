@@ -20,7 +20,7 @@ ___
 ### Code Generation (Lecture 3):
    
 * Examples
-* Methods of RTCG
+* Methods of RTCG (Run-time code generation)
 * Tuning objectives
 * Case Study
 
