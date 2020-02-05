@@ -6,10 +6,16 @@ It requires:
 * Boost
 * CUDA
 * Numpy   
-___
-### Official Installation link:
+___   
+### A simple guide:   
 
-* [Click Here](https://developer.nvidia.com/pycuda)
+PyCUDA wiki has a simple windows installation guide step by step, for windows8, which might work Windows 10, if done correctly: [HERE](https://wiki.tiker.net/PyCuda/Installation/Windows)   
+
+___
+### Official links:
+
+* For official websites [Click Here](https://developer.nvidia.com/pycuda)
+* For pre-build pycuda [Click Here[(https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycuda)
 
 ___
 
@@ -17,7 +23,8 @@ ___
 
 ### For Boost (windows)
 
-* Precompiled Boost is available [here](https://sourceforge.net/projects/boost/files/boost/)   
+* Precompiled Boost is available [here](https://sourceforge.net/projects/boost/files/boost/)
+* Precompiled python.Boost is available [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#boost.python)
 * For compiling *bjam* note that bjam = b2, which is included in the zip.
 
 ___
