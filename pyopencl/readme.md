@@ -5,3 +5,6 @@ _Note_ : It is best to use OpenCL, since it's an open standard. CUDA is propreit
 on Nvidia gpus, where OpenCL works on all hardware: **Both GPUs & CPUs**.  
    
    * [Links](./links.md)
+   * [Installation](./Installation.md)
+   * [Overview](./Overview.md)
+   * [Lecture 1](./Lec1.md)
