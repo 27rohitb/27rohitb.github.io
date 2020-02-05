@@ -6,6 +6,12 @@ It requires:
 * Boost
 * CUDA
 * Numpy   
+___
+### Official Installation link:
+
+* [Click Here](https://developer.nvidia.com/pycuda)
+
+___
 
 ### Important points:   
 
