@@ -15,7 +15,7 @@ ___
 ### Official links:
 
 * For official websites [Click Here](https://developer.nvidia.com/pycuda)
-* For pre-build pycuda [Click Here[(https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycuda)
+* For pre-build pycuda [Click Here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycuda)
 
 ___
 
