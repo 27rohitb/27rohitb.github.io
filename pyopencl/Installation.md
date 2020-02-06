@@ -37,6 +37,8 @@ ___
 ## Errors:
 
 #### cl not found:
+   
+Stackoverflow link [here](https://stackoverflow.com/questions/8125826/error-compiling-cuda-from-command-prompt)
 CL (x64) path for new Visual Studio 2019 Community edition is:   
 ```
 nvcc fatal   : Cannot find compiler 'cl.exe' in PATH
@@ -44,6 +46,8 @@ nvcc fatal   : Cannot find compiler 'cl.exe' in PATH
 ```
 
 #### Cannot find corecrt.h
+   
+Stackoverflow link [here](https://stackoverflow.com/questions/38290169/cannot-find-corecrt-h-universalcrt-includepath-is-wrong)
 This was moved in Windows kit and needs to added to nvcc.profile file (include path)
 
 ```
