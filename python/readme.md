@@ -10,3 +10,4 @@ This page contain links to all the pages I have on python.
 * [Scopes](./scopes.md)
 * [Classes](./classes.md)
 * [OS_Module](./osModule.md)
+* [Venv & Pip](./virtualenv_and_pip.md)
