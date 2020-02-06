@@ -10,13 +10,6 @@ ___
 ### A simple guide:   
 
 PyCUDA wiki has a simple windows installation guide step by step, for windows8, which might work Windows 10, if done correctly: [HERE](https://wiki.tiker.net/PyCuda/Installation/Windows)   
-
-___
-### Official links:
-
-* For official websites [Click Here](https://developer.nvidia.com/pycuda)
-* For pre-build pycuda [Click Here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycuda)
-
 ___
 
 ### Important points:   
@@ -33,3 +26,19 @@ ___
 
 * Download CUDA toolkit from [here](https://developer.nvidia.com/cuda-downloads).
 * If CUDA needs to install *newer* geforce experience and driver, then DO IT, otherwise it will break cuda installation.   
+
+___
+### For pyCUDA:
+
+* For official websites [Click Here](https://developer.nvidia.com/pycuda)
+* For pre-build pycuda [Click Here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycuda)
+
+Note: for ERROR    
+```
+nvcc fatal   : Cannot find compiler 'cl.exe' in PATH
+```   
+   
+CL (x64) path for new Visual Studio 2019 Community edition is:   
+```
+64-BIT : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\bin\Hostx64\x64
+```
