@@ -12,7 +12,7 @@ ___
 PyCUDA wiki has a simple windows installation guide step by step, for windows8, which might work Windows 10, if done correctly: [HERE](https://wiki.tiker.net/PyCuda/Installation/Windows)   
 ___
 
-### Important points:   
+## Important points:   
 
 ### For Boost (windows)
 
@@ -33,12 +33,30 @@ ___
 * For official websites [Click Here](https://developer.nvidia.com/pycuda)
 * For pre-build pycuda [Click Here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycuda)
 
-Note: for ERROR    
-```
-nvcc fatal   : Cannot find compiler 'cl.exe' in PATH
-```   
-   
+___
+## Errors:
+
+#### cl not found:
 CL (x64) path for new Visual Studio 2019 Community edition is:   
 ```
+nvcc fatal   : Cannot find compiler 'cl.exe' in PATH
 64-BIT : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\bin\Hostx64\x64
+```
+
+#### Cannot find corecrt.h
+This was moved in Windows kit and needs to added to nvcc.profile file (include path)
+
+```
+Cannot find corecrt.h
+
+Go to nvcc.profile file  located at: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin
+
+Change the include line to: 
+INCLUDES += "-I$(TOP)/include" "-I$(TOP)/include/cudart" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt" $(_SPACE_)
+```
+
+#### Cannot find nvcc compiler
+Add it's path to environment variable. It is located at:
+```
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin
 ```
