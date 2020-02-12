@@ -9,5 +9,6 @@ This page contain links to all the pages I have on python.
 * [Decorators](./decorators.md)
 * [Scopes](./scopes.md)
 * [Classes](./classes.md)
+* [Classes_advanced](./classes_advanced.md)
 * [OS_Module](./osModule.md)
 * [Venv & Pip](./virtualenv_and_pip.md)
