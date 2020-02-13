@@ -31,7 +31,6 @@ def sq_num(alist):
             res = sq_num([1,2,3,4])
 # Usage:    
 print(res)        # will return a generator object
-#     
 print(next(res))  # NEXT keyword used HERE, will give output for 1st value in list, i.e "1"
 ```
 
