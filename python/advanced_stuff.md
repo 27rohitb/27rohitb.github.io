@@ -29,8 +29,10 @@ def sq_num(alist):
       yield (i * i)  # yield KEYWORD used HERE
       
             res = sq_num([1,2,3,4])
-# Usage:    print(res)        # will return a generator object
-#           print(next(res))  # NEXT keyword used HERE, will give output for 1st value in list, i.e "1"
+# Usage:    
+print(res)        # will return a generator object
+#     
+print(next(res))  # NEXT keyword used HERE, will give output for 1st value in list, i.e "1"
 ```
 
 ### Converting list comprenhension to generator:
