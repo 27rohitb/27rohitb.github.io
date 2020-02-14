@@ -7,6 +7,11 @@ This file has some advanced concepts like Generators, Iterators etc.
 This is memory efficient way to implement a function or a forloop in a function.   
 The keywords used are : **yield** and **next**:
 
+**NOTE**:
+
+* Generators can return ONLY 1 item, so they should be used in functions "generating" some kind of data, and NOT in function that are
+manipulating it.
+
 Taking example of function that computes the square of numbers in a given list.
 
 ```
@@ -67,7 +72,9 @@ So, Iterable returns an "iterator";
 An _iterator_ is an object with a state, which remember where it is, during the iteration. They also know, how to get their next value, 
 that is using **__next__** method. Note: Iterators are also iterables (can be looped over).
 
-**NOTE** : Iterators can ONLY go forward or reset it!
+**NOTE** : 
+* Iterators can ONLY go forward or reset it!
+* Iterators don't need to end, as long they have next value.
 
 ### Difference between Generators & iterators:   
 
