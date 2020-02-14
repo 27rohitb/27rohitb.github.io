@@ -64,7 +64,7 @@ file **wont** be executed!!.
 Also note that, when we run a module directly, the ```__name__``` is directly set as ```__main__``` by default, but when it is being 
 imported, it is set to ```<file name of the module>``` by default.
 
-## Iters & Iterables:
+## Iterators & Iterables:
 
 _Iterable_- Something that can be looped over. For anything to be iterable, it needs to have **__iter__** .
 So, Iterable returns an "iterator";    
