@@ -12,3 +12,4 @@ This page contain links to all the pages I have on python.
 * [Classes_advanced](./classes_advanced.md)
 * [OS_Module](./osModule.md)
 * [Venv & Pip](./virtualenv_and_pip.md)
+* [Advanced_Concepts](./advanced_stuff.md)
