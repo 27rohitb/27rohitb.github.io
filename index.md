@@ -12,6 +12,11 @@ feel free to read them as:
 * [PyOpenCL](./pyopencl/readme.md)
 * [LateX](./latex/readme.md)
 
+### Other links:    
+
+* [Error](./Error/readme.md)
+* [SQD Lab](./sqd_lab/readme.md)
+
 ### External Links:  
     
 These are site, which already have nicely maintained content similar to my site, and thus instead of re-inventing the wheel, i am posting 
