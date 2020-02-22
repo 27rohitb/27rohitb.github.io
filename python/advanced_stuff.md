@@ -14,8 +14,7 @@ manipulating it.
 
 Taking example of function that computes the square of numbers in a given list.
 
-```
-python
+```python
 
 # Normal, less mem-efficient function:
 
@@ -41,16 +40,14 @@ print(next(res))  # NEXT keyword used HERE, will give output for 1st value in li
 
 ### Converting list comprenhension to generator:
 
-```
-python
+```python
 list_comp = [x*x for x in my_list]
 my_gen = (x*x for x in my_list)
 ```
 
 ### Converting Generator to list :
 
-```
-python
+```python
 my_list = list(my_gen)
 ```
 
