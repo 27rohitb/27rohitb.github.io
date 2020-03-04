@@ -13,3 +13,4 @@ This page contain links to all the pages I have on python.
 * [OS_Module](./osModule.md)
 * [Venv & Pip](./virtualenv_and_pip.md)
 * [Advanced_Concepts](./advanced_stuff.md)
+* [Itertools_modules](./itertools.md)
