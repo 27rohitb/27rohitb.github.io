@@ -72,7 +72,36 @@ that is using **__next__** method. Note: Iterators are also iterables (can be lo
 **NOTE** : 
 * Iterators can ONLY go forward or reset it!
 * Iterators don't need to end, as long they have next value.
+   
+Example of an iterator **class** :
+```python
 
+class MyRange:
+
+   def __init__(self, start, end):
+      self.value = start
+      self.end = end
+   
+   def __iter__(self):
+      return self
+   
+   def __next__(self):
+      #create some sort of recursive loop here
+      #
+      # Break condition;
+      if self.value >= self.end:
+         raise StopIteration
+         
+      # save the state, that be returned later
+      current = self.value
+      
+      # update the state, internally
+      self.value += 1
+      
+      # finally return the saved state.
+      return current
+```
+   
 ### Difference between Generators & iterators:   
 
 Generators are also iterators, but the ```__iter__ & __next__``` methods are created automatically.
