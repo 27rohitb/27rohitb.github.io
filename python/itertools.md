@@ -28,6 +28,8 @@ import itertools
 
 ### Functions that run only for finite number of times:   
 
+**ALL the functions return an iterator**   
+
 #### Combiantion():   
 ```python
 
@@ -57,6 +59,15 @@ itertools.product( iter_a, repeat=4 )
 
 #### Combination with repeat:
 
-```itertools.combintations_with_replacement( iter_a, 4)
+```itertools.combintations_with_replacement( iter_a, 4)```   
 
-#### Co
+### Other functions:   
+
+#### Combine different iterables into one:   
+
+``` itertools.chain( iter_a, iter_b , iter_c )```
+
+#### Slicing iterators:   
+
+``` itertools.islice( iter_a, , starting_val*, stopping_val*, steps* ) # *-> optional argument```   
+
