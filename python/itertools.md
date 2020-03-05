@@ -76,7 +76,7 @@ itertools.product( iter_a, repeat=4 )
 
 #### Selecting certain elements:   
 
-```Compress()```:     
+* ```Compress()```:     
 ```python
 itertools.compress( iter_a, corresponding_list_of_bools )
 
@@ -86,19 +86,46 @@ list_of_bool = [ True, False, True ] #or
 list_of_bool = [1,0,1]
 ```
 
-```Filter( filter_func, iter_a)```:   
+* ```Filter( filter_func, iter_a)```:   
 Returns an iterator with values True or False, depending upon which element satisfies filter function.   
 
-```itertools.filterfalse( filter_func, iter_a ):``` Complement of builtin filter function.   
+* ```itertools.filterfalse( filter_func, iter_a ):``` Complement of builtin filter function.   
 
-```itertools.dropwhile( filter_func, iter_a ):``` Returns iterable elements (without filtering) after hitting the first "True", (including the true value).   
+* ```itertools.dropwhile( filter_func, iter_a ):``` Returns iterable elements (without filtering) after hitting the first "True", (including the true value).   
 
-```itertools.takewhile( filter_func, iter_a ):``` Comlpement of dropwhile function.   
+* ```itertools.takewhile( filter_func, iter_a ):``` Comlpement of dropwhile function.   
     
-Does the given operation ( add, multiply etc) on the iterator elements and return that after each element.
+* Does the given operation ( add, multiply etc) on the iterator elements and return that after each element.
 ```python
 import operator
 
 itertools.accumulate( iter_a, operator.mul ):
 ```
 
+#### Groupby():   
+
+Key_function tells the grouby, how to group.   
+
+```python
+iter_a = list(dict()s)
+
+# NOTE VERY IMPORTANT!!
+# The above dict() should already be sorted with the respect to the key we are trying to group by.
+
+def key_function(dict):
+   return dict['some key']
+
+final_data = itertools.groupby( iter_a, key_function )
+
+fina_data is a iterator of tuple of type:
+
+( <key>, <iterator of elements which had this key> ) 
+```
+
+#### Replicating iterator:   
+
+**Note**: DO NOT use the original iterator after replicating! ONLY use copies!!   
+
+```python
+copy1, copy2 = itertools( iter_a )
+```
