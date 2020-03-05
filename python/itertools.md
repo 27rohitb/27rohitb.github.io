@@ -9,6 +9,8 @@ It contains commonly used iterators, and functions for combining several iterato
 ```python
 import itertools
 ```
+
+### Functions that can run indefinitely:   
  
 * ```counter = itertools.count(start=1, step=-2)``` : Does counting. (usuful with zip, when indexing is required and size of data is not known. It can count in reverse direction also !
 
@@ -23,3 +25,38 @@ import itertools
 * ```map( func_A, iter_A, iter_B ):``` Returns an iterator where the values from iter_A and iter_B is being passed as an argument to func_A.   
 
 * ```itertools.starmap( func_A, [(val_1, val_2) ...]):``` Takes a function and a list of tuples, which have values already paried up, and does the same thing as ```map()``` function above.
+
+### Functions that run only for finite number of times:   
+
+#### Combiantion():   
+```python
+
+iter_a = ['a','b','c','d']
+# number of vals to be considered while making a combination:
+
+num_of_val = 2 
+#only a ,b at the given time
+
+# num_of_val = 3 
+# a,b,c at the same time
+
+combinations( iter_a, num_of_vals )
+```
+Produce all possible combintation of element where the order **does not** matter.
+
+#### Permutation():   
+
+Same as combination, except order of element in the output, now matters.
+
+#### Product():   
+Give **Catersian Product** of the iterables, something like permutation with repeats.   
+
+```python
+itertools.product( iter_a, repeat=4 )
+```
+
+#### Combination with repeat:
+
+```itertools.combintations_with_replacement( iter_a, 4)
+
+#### Co
