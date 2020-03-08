@@ -36,7 +36,7 @@ class someclass():
       self.var = None
 ```
    
-> Deleter Method are called while deleting the class object, for eg:
+> Deleter Method are called while deleting the class object, for eg:   
 ```python
 someobj = someclass(somevar)
 
