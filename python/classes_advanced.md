@@ -13,7 +13,8 @@
 
 Lets us define a method, which can be accessed like an attribute. -> This can be useful in scenarios where class requires modification 
 (some attribute must be updates, which is generally done through functions), but maintain the compatibility!.    
-
+   
+**NOTE: Setter and getter method SHOULD have SAME NAME.**   
 This done using property decorator as:   
 ```python
 
