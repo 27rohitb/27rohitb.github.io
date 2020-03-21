@@ -14,3 +14,8 @@ This page contain links to all the pages I have on python.
 * [Venv & Pip](./virtualenv_and_pip.md)
 * [Advanced_Concepts](./advanced_stuff.md)
 * [Itertools_modules](./itertools.md)
+   
+### Import Vscode module for python devlopment:   
+
+* Autodocstring   
+* In setting of vscode search pytest and enable it-> Python test explorer   
