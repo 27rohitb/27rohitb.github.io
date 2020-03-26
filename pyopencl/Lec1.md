@@ -1,4 +1,4 @@
-# Lecture 1:
+# Lecture 1(PyCUDA crash course):
    
 Importing and initiazlizing pyCUDA:   
 
@@ -50,5 +50,34 @@ Underlying concept:
 
 * each thread does some computation in a kernel.
 * A given computation is bascially mapped onto a grid.
-* A grid is an arrangment of threads.
-* A thread is divided into thread blocks.
+* A grid is divided into blocks: described are ```blockIdx.x```.
+* A block has some specific number of theads, whoes index is described as ```threadIdx.x```.
+* Total number of threads per block is the dimension of the block, described as ```blockDim.x```.
+* The global location of thread is calculated and denoted by ```int idx```.   
+* The final computation (multiply the number by 2) is performed, using the line ```a[idx] *= 2```.   
+
+We can select the number of processing elements by defining the number of threads per block when launching the kernel.
+Different elements of the input array are automatically mapped to different thread, giving data parallelism in processing.
+   
+Getting the Function from the kernel:   
+```python
+# In string is the function name as mentioned in the Kernel
+function = module.get_function("double_array")
+```   
+
+Calling / Executing the kernel:   
+```python
+# func ( (args to the kernel function <gpu mem locations >, block=(x,y,z), grid=(a,b,c) )
+function( a_gpu, block=(16, 1, 1), grid=(1, 1, 1))
+```
+   
+Place Holder for result:   
+```python
+# Empty arrary with dim same as a
+final_a = np.empty_list(a)
+```   
+
+Copying data back from gpu:   
+```python
+cuda.memcpy_dtoh( a_final, a_gpu )
+```
