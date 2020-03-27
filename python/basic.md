@@ -123,6 +123,12 @@ raise Exception
 ```
 
 ## FILE IO:
+    
+Most common way to open read the file line by line (this automatically closes the file after reading:   
+```python
+with open(cfile_name,"r") as fin:
+	line = fin.readline()
+```    
 
 Return a BOOL val depending upon the readability of the file.   
 **NOTE is ALSO depends upon the MODE inwhich file was opened (r/r+/w)**
