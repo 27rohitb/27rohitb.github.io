@@ -15,6 +15,8 @@ This page contain links to all the pages I have on python.
 * [Advanced_Concepts](./advanced_stuff.md)
 * [Itertools_modules](./itertools.md)
 * [New f-string formatting](https://realpython.com/python-f-strings/)
+* [Multi_Threading](./multithreading.md)
+* [Multi_processing](./multiproc.md)
 *
    
 ### Import Vscode module for python devlopment:   
