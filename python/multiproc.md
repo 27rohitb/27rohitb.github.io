@@ -1,5 +1,7 @@
 # Multiprocessing
 
+[here](https://stackoverflow.com/questions/26520781/multiprocessing-pool-whats-the-difference-between-map-async-and-imap)
+
 ## Multiprocessing using pool:
 
 ## Using process pool executor:
