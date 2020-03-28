@@ -5,3 +5,5 @@
 ## Other useful link:
    
 * [Wheel house](https://www.silx.org/pub/wheelhouse/)
+* [All virtual envs compared](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
+
