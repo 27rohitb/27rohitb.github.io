@@ -1,6 +1,25 @@
 # Multiprocessing
 
-[here](https://stackoverflow.com/questions/26520781/multiprocessing-pool-whats-the-difference-between-map-async-and-imap)
+* [Maps vs imap](https://stackoverflow.com/questions/26520781/multiprocessing-pool-whats-the-difference-between-map-async-and-imap)   
+* [Map_async vs apply_async](https://stackoverflow.com/questions/27479218/map-async-vs-apply-asyncwhat-should-i-use-in-this-case)
+* [Multiprocessing module](https://docs.python.org/3/library/multiprocessing.html)
+
+# My implementation:
+
+```python
+from multiprocessing import Pool
+
+with Pool() as pool:
+  res = pool.imap(func=self.calc_vec, iterable=input_str_list, chunksize=4)
+  pool.close()
+  pool.join()
+  pool.terminate()
+  del pool
+  for i in res:
+    yield i
+```
+  
+  
 
 ## Multiprocessing using pool:
 
