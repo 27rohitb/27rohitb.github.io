@@ -3,7 +3,8 @@
 * [Maps vs imap](https://stackoverflow.com/questions/26520781/multiprocessing-pool-whats-the-difference-between-map-async-and-imap)   
 * [Map_async vs apply_async](https://stackoverflow.com/questions/27479218/map-async-vs-apply-asyncwhat-should-i-use-in-this-case)
 * [Multiprocessing module](https://docs.python.org/3/library/multiprocessing.html)
-
+* [imap_hangs in venv](https://stackoverflow.com/questions/54732436/pool-imap-hangs-in-venv-but-works-if-not-using-venv)
+   
 # My implementation:
 
 ```python
