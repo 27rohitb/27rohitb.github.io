@@ -18,7 +18,7 @@ This page contain links to all the pages I have on python.
 * [Multi_Threading](./multithreading.md)
 * [Multi_processing](./multiproc.md)
 * [Pickle](./pickle.md)
-*
+* [Memory Management & Profiling](./memmanage)
    
 ### Import Vscode module for python devlopment:   
 
