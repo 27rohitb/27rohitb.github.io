@@ -17,6 +17,7 @@ This page contain links to all the pages I have on python.
 * [New f-string formatting](https://realpython.com/python-f-strings/)
 * [Multi_Threading](./multithreading.md)
 * [Multi_processing](./multiproc.md)
+* [Pickle](./pickle.md)
 *
    
 ### Import Vscode module for python devlopment:   
