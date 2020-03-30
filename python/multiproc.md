@@ -20,6 +20,8 @@ with Pool() as pool:
     yield i
 ```
   
+* ```imap``` will give data inorder, but the function should ONLY take 1 argument.   
+* ```starmap``` same as imap, but function can take MUltiple argurment inform: [ (arg1 ,...argm), (tuple2 with different  arg ) ...]
   
 
 ## Multiprocessing using pool:
