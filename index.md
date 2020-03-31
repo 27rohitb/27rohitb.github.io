@@ -16,6 +16,8 @@ feel free to read them as:
 
 * [Error](./Error/readme.md)
 * [SQD Lab](./sqd_lab/readme.md)
+* [Parallel Programming Overview](https://docs.uabgrid.uab.edu/w/images/9/9d/Introduction_to_GPU_Computing.pdf)
+
 
 ### External Links:  
     
