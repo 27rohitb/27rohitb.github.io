@@ -10,19 +10,19 @@ due to rounding off.
 
 4 step process:
 
-* Honest, self inventory. Then express your final goal, which should be feasible.
+### Honest, self inventory. Then express your final goal, which should be feasible.
 - Is it for scalability?
 - Is it for faster processing? etc.
 
 < Refer to Maslow's Hierarchy of Software Project Needs. (Its is nice triangle) >
 
-* Measurement
+### Measurement
 - Unit tests are NOT performance test. Should design and have both.
 - Get good with profiling tools like cProfile. This profile can be views through ```pstats``` module (CLI, hard to navigate)
 or use ```snakeviz``` or for a function that class a lot of numpy functions: ```line_profiler```.
 (Profiling is about finding which thing **actually** has the biggest impact, rather than assuming)
 
-* Refactoring the Code.
+### Refactoring the Code.
 - Options for introducing Numba into codebase:
 * Replace code with Numba implementation.
 * **Compile** functions **only when** Numba is present.
