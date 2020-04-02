@@ -1,5 +1,7 @@
 # python's GIL (by Larry Hastings):
 
+* [Video link here](https://www.youtube.com/watch?v=KVKufdTphKs)
+
 C global var is equivalent to a python module's attribute.
    
 ## Reference Counting:
