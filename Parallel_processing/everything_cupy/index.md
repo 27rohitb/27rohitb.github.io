@@ -4,4 +4,5 @@
 
 ## My list:
 
+* [CuPy intro paper](http://learningsys.org/nips17/assets/papers/paper_16.pdf)
 * [Very basic cupy](./basic.md)
