@@ -1,4 +1,4 @@
-# Lecture 1(PyCUDA crash course):
+# Lecture 1 (PyCUDA crash course):
    
 Importing and initiazlizing pyCUDA:   
 
@@ -55,7 +55,8 @@ Underlying concept:
 * Total number of threads per block is the dimension of the block, described as ```blockDim.x```.
 * The global location of thread is calculated and denoted by ```int idx```.   
 * The final computation (multiply the number by 2) is performed, using the line ```a[idx] *= 2```.   
-* **Grid size = total number of blocks, Block size = total number of threads.**
+* **Grid size = total number of blocks, Block size = total number of threads.**   
+* Index starts from 0 (zero).
 
 We can select the number of processing elements by defining the number of threads per block when launching the kernel.
 Different elements of the input array are automatically mapped to different thread, giving data parallelism in processing.
