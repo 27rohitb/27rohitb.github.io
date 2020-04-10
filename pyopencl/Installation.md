@@ -36,6 +36,8 @@ ___
 ___
 ## Errors for pyCUDA:
 
+**Initially try installing pycuda; should work.**
+
 #### cl not found:
    
 Stackoverflow link [here](https://stackoverflow.com/questions/8125826/error-compiling-cuda-from-command-prompt)
@@ -67,6 +69,14 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin
 
 ___
 ## Errors for pyOpenCL:
+
+Steps for pyopencl2019:
+   
+1. Download source
+2. Download wheel for pybind11 > Install it.
+3. Now build and install pyopencl
+
+___
 
 There are a lot of Visual Studio 14 or 2008 C++ compiler or windows.h or other files which were available natively in Visual studio or windows were moved when Microsoft decided to "re-organize" its internal libraries. So, **DO NOT** do directly installation of pyOpenCL from ```pip install```.
    
