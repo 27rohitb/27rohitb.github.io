@@ -17,3 +17,10 @@ This file contains the links to various important sources i came across online.
 * [Device Info params](https://documen.tician.de/pyopencl/runtime_const.html#device_info)   
 * [clEnqueueNDRangeKernel](https://www.khronos.org/registry/OpenCL/sdk/1.0/docs/man/xhtml/clEnqueueNDRangeKernel.html)   
 
+## WorkGroups & Work Items:
+
+* [Global and Local size](https://stackoverflow.com/questions/3957125/questions-about-global-and-local-work-size)
+* [Texas Instruments](https://downloads.ti.com/mctools/esd/docs/opencl/execution/kernels-workgroups-workitems.html)
+
+
+
