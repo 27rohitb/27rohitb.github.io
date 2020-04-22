@@ -4,7 +4,7 @@
 
 * [GPU links](./gpu.md)
 * [Numba](./everything_numba/readme.md)
-* [Cupy](./everything_numba/readme.md)
+* [Cupy](./everything_cupy/readme.md)
 
 
 ## CPU based:
