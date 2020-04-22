@@ -10,6 +10,7 @@ feel free to read them as:
 * [Python](./python/readme.md)
 * [Fortran](./fortran/readme.md)
 * [PyOpenCL](./pyopencl/readme.md)
+* [Parallel_processing](./Parallel_processing/readme.md)
 * [LateX](./latex/readme.md)
 
 ### Other links:    
