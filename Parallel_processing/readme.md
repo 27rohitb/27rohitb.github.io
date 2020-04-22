@@ -3,6 +3,8 @@
 ## GPU based:
 
 * [GPU links](./gpu.md)
-* [Numba](./everything_numba/index.md)
+* [Numba](./everything_numba/readme.md)
+* [Cupy](./everything_numba/readme.md)
+
 
 ## CPU based:
