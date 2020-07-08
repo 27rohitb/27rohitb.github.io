@@ -1,4 +1,12 @@
-# Configuring Cgroups:
+# Cgroups:
+
+## Installing Cgroups on Ubuntu:
+
+```
+sudo apt-get install cgroup-bin cgroup-lite cgroup-tools cgroupfs-mount libcgroup1
+```
+
+## Configuring Cgroups
 
 1. Get the username
 ```
