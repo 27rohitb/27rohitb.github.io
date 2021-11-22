@@ -14,7 +14,7 @@ typeof()
    
 ### String functions:
 
-#### Contcatenate any number of strings
+#### Concatenate any number of strings
 ```julia
 a * b
 ```
