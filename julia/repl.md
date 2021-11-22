@@ -5,7 +5,7 @@
 Ctrl+L
 ```
    
-## Package manager:
+## Package manager mode:
 
 #### Enter package manager mode:
 ```
@@ -21,6 +21,13 @@ status
 #### add or remove package   
 ```add <package name>```    
 ```rm <package name>```   
+   
+## Help mode:
 
-#### Exit package manager
+#### Enter Help modeL
+```
+?
+```
+
+## Exit any mode
 ```<press backspace key>```
