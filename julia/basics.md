@@ -15,7 +15,7 @@ Quick 4:
 * Array are stored in **Column major** aka *fortran style* format; accessing them is same, each row of given column is displayed first.
 * Array _index start_ **at 1**
 
-#### determine type
+#### Determine type
 ```julia
 typeof()
 ```
