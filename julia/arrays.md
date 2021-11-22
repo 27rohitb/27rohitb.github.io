@@ -32,6 +32,12 @@ append!(arr, arr2)
 arr[1] = 67
 ```
 
+### MULIT-Dimensional Access!:
+```
+# FOR MULTI-DIMENSIONAL
+arr[r,c] # YES, r,c, though IN memory, its column majors!!!!!!
+```
+
 ### Create a SPECIFIC type array:
 ```julia
 <var name> = Array{<Type>}(undef, <lowest dimension>)
