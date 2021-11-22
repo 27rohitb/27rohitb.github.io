@@ -15,6 +15,10 @@ Additionally:
 * [Julia in 10mins](https://youtu.be/eDtVDMjZ6Nc)
    
 ___
-## Pages:
+## Index:
    
 * [REPL stuff](./repl.md)
+* [Basics](./basics.md)
+* [Arrays](./arrays.md)
+* [Looping](./looping.md)
+* [Plotting](./plot.md)
