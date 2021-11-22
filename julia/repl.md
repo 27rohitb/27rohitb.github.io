@@ -22,3 +22,5 @@ status
 ```add <package name>```    
 ```rm <package name>```   
 
+#### Exit package manager
+```<press backspace key>```
