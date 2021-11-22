@@ -44,3 +44,18 @@ ___
 
 Much faster !!!!
 
+#### using package:
+```julia
+using PyPLot
+```
+
+#### plot command:
+```
+julia
+plot(x,y, color="red", linewidth=2.0, linestyle="--")
+```
+
+#### Add title:
+```julia
+title("A sin wave")
+```
