@@ -17,4 +17,24 @@ r = 1:2:20
 ### List comprehension:
 ```julia
 l1 = [x for x in <start>:<stop>]
+   
+___
+## General loops
+    
+#### For loops:
+```julia
+for i in arr
+    print(i)
+end    
+```
 
+#### While loops:
+```julia
+i=0 #global scope
+
+while i < 5
+    print(i)
+    # i+= 1 #local scope
+    global i += 1
+end
+```
