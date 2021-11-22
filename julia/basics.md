@@ -14,6 +14,7 @@ Quick 4:
 * **!** after a function, means that fucntions is editing the given variable
 * Array are stored in **Column major** aka *fortran style* format; accessing them is same, each row of given column is displayed first.
 * Array _index start_ **at 1**
+* For **element-wise** operation use ```.``` dot=operator with ```+ - /```.
 
 #### Determine type
 ```julia
