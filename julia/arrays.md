@@ -2,7 +2,14 @@
 # Array
 Can hold objects of _different_ types.
 
-**NOTE**: _Empty_ arrays are of type _Any_   
+**NOTE**: 
+* _Empty_ arrays are of type _Any_   
+* USE ```display``` instead of ```println```
+
+### Display properly:
+```julia
+display(<array/matrix>)
+```
 
 ### Creating Empty Array of ANY type:
 ```julia
