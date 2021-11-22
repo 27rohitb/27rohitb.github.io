@@ -44,6 +44,7 @@ end
 ### Ternary Operator:
 ```
 x <conditional operation> ? <TRUE clause> : <FALSE clause>
+x > 0 ? println("is POS") : println("not positive")
 ```
 
 ### Array
@@ -51,12 +52,12 @@ Can hold objects of _different_ types.
 
 **NOTE**: _Empty_ arrays are of type _Any_   
 
-#### Creating Empty Array of ANY type:
+### Creating Empty Array of ANY type:
 ```julia
 emty_arr = []
 ```
    
-#### Add ONE element to EMPTY array
+### Add ONE element to EMPTY array
 ```julia
 push!(empty_arr, 1)
 push!(empty_arr, "hello") #possible because of type "ANY"
@@ -78,5 +79,20 @@ arr[1] = 67
 x = Array{Int64}(undef, 1) #creates a 1 dimension, 1 element Int64 array
 ```
 
-**NOTE:**: DO NOT use _Float64/nn_. The first element will have some ridiculous error, it WONT be exact zero. **Use** ```AbstractFloat```.
+**NOTE:**: 
 
+* ```undef``` is undefined is shortcut to ```undefInitializer()``` which creates array whoes memory has NOT been allocated yet.
+*  DO NOT use _Float64/nn_. The first element WONT be exact zero. **Use** ```AbstractFloat```.
+*  It can upgrade ```INT``` to float for a float type array.
+*  A ```Real``` type can contain both ```Float``` AND ```INT```.
+*  A ```Numbers`` type can take everything in ```Real``` And ```Complex```.
+
+### Create array of zeros:
+```julia
+zeros(2,2)
+```
+
+### Create array of ones:
+```julia
+ones(2,2)
+```
