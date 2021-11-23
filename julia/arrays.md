@@ -4,7 +4,9 @@ Can hold objects of _different_ types.
 
 **NOTE**: 
 * _Empty_ arrays are of type _Any_   
-* USE ```display``` instead of ```println```
+* USE ```display``` instead of ```println```.
+* Its a _general_ container, i.e, it can be N x N dims, whereas **Matrix** is **only** 2 dimensional and **Vector** is only 1 dimensional.
+* 
 
 ### Display properly:
 ```julia
