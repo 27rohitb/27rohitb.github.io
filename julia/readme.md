@@ -19,6 +19,13 @@ ___
    
 * [REPL stuff](./repl.md)
 * [Basics](./basics.md)
+
+### Data structures:
 * [Arrays](./arrays.md)
+
+### Other structures:
 * [Looping](./looping.md)
+
+### Additional libraries:
+
 * [Plotting](./plot.md)
