@@ -22,9 +22,11 @@ ___
 
 ### Data structures:
 * [Arrays](./arrays.md)
+* [Other data structures](./datastypes.md)
 
-### Other structures:
+### Other constructs:
 * [Looping](./looping.md)
+* [Functions](./functions.md)
 
 ### Additional libraries:
 
