@@ -38,3 +38,10 @@ dik = Dict('a' => 1, 'b'=>2)
 **Note:**
 
 * Dictionary **CAN** be altered.
+
+___
+## Constants:
+Some constants that dont exist or we know better : P
+```julia
+const pie=3.1415
+```
