@@ -27,6 +27,8 @@ ___
 ### Other constructs:
 * [Looping](./looping.md)
 * [Functions](./functions.md)
+* [Struct](./struct.md)
+* [Modules](./modules.md)
 
 ### Additional libraries:
 
