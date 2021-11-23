@@ -33,3 +33,8 @@ ___
 ### Additional libraries:
 
 * [Plotting](./plot.md)
+
+___
+## Advanced stuff:
+
+* [Parametrics](./param.md)
