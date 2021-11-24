@@ -17,7 +17,7 @@ gr()  #faster backend
 
 #### Plot command:
 ```julia
-plot(x,y, label="linear", legend=:topleft)
+plot(x,y, label="linear", legend=:topleft, xaxis="x", yaxis=("y", :log), dpi=200)
 
 # FOR MUTIPLE PLOT:
 plot!(x2, y2, dpi=200)
@@ -34,11 +34,42 @@ yaxis!("f(x) [-]")
 title!("polynomial")
 ```
 
+### Add anotation:
+Anotation = text on the graph:
+```julia
+anotate!(x, y, Plots.text("This will appear at x,y", 5, :red) )
+```
+
 #### Save plot:
 ```julia
 savefig("<filename>.<extension>")
 ```
 
+### Scatter plot:
+```julia
+scatter(x, y, yerr=yerr, markersize=2, markershape=:o, alpha0.5, label="data")
+```
+
+___
+# Subplots:
+
+*  Make plot objects.
+*  Pass these all at once into plot command, with ```layout``` kwarg.
+
+Example:
+```julia
+# Make a plot and modify it to add another plot on the same.
+p1 = scatter(x,y)
+p1 = plot!(x2,y2)
+
+# Make another plot and modify it as well:
+p2 = scatter(x3,y3)
+p2 = plot!(x4, y4)
+
+# PLOT THEM ALL
+plot(p1, p2, layout=(2,1), dpi=200)
+```
+   
 ___
 # Pylot from Julia
 
