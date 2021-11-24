@@ -44,14 +44,20 @@ ___
 ### Struct:
 Everything about struct is [here](./struct.md)
 
-### Abstract type:
-Its basically an alternative to Abstract classes *BUT* it is for **structs** For eg:
+### Abstract type ( Parametric ):
+Its basically an alternative to Abstract classes *BUT* it is for **structs**. Its also an example of **parametric**, since its not a parameter to the function, _but_ it can allow the user to define the datatype on the fly. **Similar to templates in C++**.
 
+Example:
 ```julia
 abstract type Shape{T} end
 
-struct Rectahngle{T1, T2} <: Shape{T1}
+struct Rectangle{T1, T2} <: Shape{T1}
     len::T1
     wid:T2
 end
+```
+  
+Usage Example:
+```julia
+r = Rectangle{Float64, Float64}(5.0,4.0)
 ```
