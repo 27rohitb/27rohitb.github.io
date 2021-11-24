@@ -33,6 +33,7 @@ ___
 ### Additional libraries:
 
 * [Plotting](./plot.md)
+* [Fitting](./fitting.md)
 
 ___
 ## Advanced stuff:
