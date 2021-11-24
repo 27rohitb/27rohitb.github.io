@@ -22,7 +22,7 @@ ___
 
 ### Data structures:
 * [Arrays](./arrays.md)
-* [Other data structures](./datastypes.md)
+* [Other data structures](./datatypes.md)
 
 ### Other constructs:
 * [Looping](./looping.md)
@@ -37,4 +37,4 @@ ___
 ___
 ## Advanced stuff:
 
-* [Parametrics](./param.md)
+* [Parametrics and Abstract type](./datatypes.md)
