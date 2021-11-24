@@ -34,7 +34,9 @@ ___
 
 * [Plotting](./plot.md)
 * [Fitting](./fitting.md)
-
+* [Intergation and ODEs](./intODE.md)
+* [Root finding and creating Poly](./rootPOLY.md)
+* 
 ___
 ## Advanced stuff:
 
