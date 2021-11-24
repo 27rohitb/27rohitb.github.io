@@ -36,6 +36,7 @@ ___
 * [Fitting](./fitting.md)
 * [Intergation and ODEs](./intODE.md)
 * [Root finding and creating Poly](./rootPOLY.md)
+* [Matrix and LinAlgbera](./matlinalg.md)
 * 
 ___
 ## Advanced stuff:
