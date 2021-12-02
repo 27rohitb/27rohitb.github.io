@@ -38,6 +38,7 @@ ___
 * [Root finding and creating Poly](./rootPOLY.md)
 * [Matrix and LinAlgbera](./matlinalg.md)
 * [Unit checking](./unitfull.md)
+* [Differential Equation](./diffeq.md)
 ___
 ## Advanced stuff:
 
