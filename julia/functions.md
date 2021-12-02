@@ -6,6 +6,12 @@ Key points:
 * return last line by default, unless _return_ keyword is used.
 
 ___
+### Links:
+
+* [Functions Julia Docs](https://docs.julialang.org/en/v1/manual/functions/)
+*
+   
+___
 ### General Syntax:
 ```
 function <name>(<arguments> ; <keyword args>)
