@@ -2,6 +2,14 @@
 
 Similar to python. One files containing everything; function, vars, etc for one type of entity.
 
+## Key points:
+
+```Modules``` and files ```<your file>.jl``` are two SEPERATE things. Modules, is like classes _without_ scopes or security. Here are the key points:
+* Modules are a way to clean up ```namespaces```. Key things seperate, to avoid conflicts.
+* One file can contain mutliple modules.
+* Each module has its stuff (data, functions) which can either be brough into current namespace or used with the help of ```qualified name```.
+* 
+
 ### Creating modules:
 ```julia
 module <mod_name>
