@@ -14,6 +14,10 @@ Additionally:
 
 * [Julia in 10mins](https://youtu.be/eDtVDMjZ6Nc)
    
+Naming convention:   
+   
+* [General stuff](https://docs.julialang.org/en/v1/manual/style-guide/#Use-naming-conventions-consistent-with-Julia-base/)
+* [Function Names](https://docs.julialang.org/en/v1/manual/style-guide/#Write-functions-with-argument-ordering-similar-to-Julia-Base)   
 ___
 ## Index:
    
