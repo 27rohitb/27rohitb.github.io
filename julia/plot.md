@@ -1,5 +1,9 @@
 # Plotting
 
+#### Links:
+
+* Very nice tut by Purdue here ```https://www.math.purdue.edu/~allen450/Plotting-Tutorial.html```
+
 **NOTE:** 
 
 * ```Plots``` package required!.
