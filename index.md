@@ -25,6 +25,7 @@ feel free to read them as:
 * [Error](./Error/readme.md)
 * [Other_stuff](./others/readme.md)
 * [SQD Lab](./sqd_lab/readme.md)
+* [Linux Links](./linux_stuff/readme.md)
 
 ### External Links:  
     
