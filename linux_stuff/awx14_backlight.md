@@ -121,3 +121,6 @@ This is my attempt to contribute [AlienFX](https://github.com/trackmastersteve/a
   *   https://www.beyondlogic.org/usbnutshell/usb5.shtml
   *   
 
+## More Linux Source:
+
+* https://embeddedguruji.blogspot.com/
