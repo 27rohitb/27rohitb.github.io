@@ -7,3 +7,4 @@ My preferred linux distro has been Ubuntu LTS version, for the simple reason tha
 Following is some of the projects I undertook for self-learning:
 
 * [Enabling Alienware x14 keyboard backlight programming](./awx14_backlight.md)
+* [Enable or check TRIM for ssd on debian base system](https://opensource.com/article/20/2/trim-solid-state-storage-linux)
