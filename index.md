@@ -33,3 +33,4 @@ These are site, which already have nicely maintained content similar to my site,
 the links to them here:     
 
 * [Tim Murphy's site](http://timmurphy.org/)
+* [Nicole van der ho Even's Notes collection](https://notes.nicolevanderhoeven.com/Fork+My+Brain)
