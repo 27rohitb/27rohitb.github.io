@@ -34,3 +34,22 @@ wsl --shutdown just to be sure that you've definitely killed everything.
 Boot your distro.
 Confirm that your resolv.conf changes are still in effect, or just ping a domain name and cry tears of joy after struggling to get this working for far too fucking long.
 ```
+
+## Error in mounting Local C or D drive. Enable auto-mounting:
+
+https://askubuntu.com/questions/1115564/wsl-ubuntu-distro-how-to-solve-operation-not-permitted-on-cloning-repository
+
+```
+sudo nano /etc/wsl.conf
+```
+
+Add the following line to it:
+```
+[automount]
+options = "metadata"
+```
+
+Shudown WSL and restart:
+```
+wsl --shutdown
+```
